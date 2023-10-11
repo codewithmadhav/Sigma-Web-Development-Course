@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" autofocus required>
+        <br><br>
+    
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+    
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+    
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+      </form>
+
+      <h1>Text Input</h1>
+      <input type="text" name="username" placeholder="enter your name">
+
+      <h1>Password Input</h1>
+      <input type="password" name="password" id="password" placeholder="enter your password">
+
+      <h1>Radio Buttons</h1>
+      <input type="radio" name="gender" id="101" value="male">
+      <label for="101">Male</label>
+      <input type="radio" name="gender" id="102" value="female">
+      <label for="102">Female</label>
+
+      <h1>CheckBox</h1>
+      <input type="checkbox" name="maths" id="maths" value="yes">
+      <label for="maths">Maths</label>    
+      <input type="checkbox" name="physics" id="physics" value="yes">
+      <label for="physics">Physics</label>    
+      <input type="checkbox" name="chemistry" id="chemistry" value="yes">
+      <label for="chemistry">Chemistry</label>    
+
+
+      <h1>The Textarea Element</h1>
+      <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+
+      <h1>The Select Element</h1>
+      <select name="fruits" id="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="guava">Guava</option>
+        <option value="cherry">Cherry</option>
+      </select>
+    </form>
+</body>
+</html>
